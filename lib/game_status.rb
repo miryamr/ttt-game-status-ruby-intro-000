@@ -41,7 +41,7 @@ def full?(board)
   end
 
 def draw?(board)
-  if !won?(board) && full?(board)
+  !won?(board) && full?(board)
     return true
   else
 end
@@ -55,7 +55,7 @@ def over?(board)
 end
 
 def winner?(board)
-  
+
 
   #how to say if positions_taken(board,index)
 #every element in the board
