@@ -63,5 +63,8 @@ def winner(board)
     if !won?(board)
       return nil
     end
+  elsif index == false
+    return nil
+    end   
   end
 end
