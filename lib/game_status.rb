@@ -56,7 +56,7 @@ end
 
 def winner(board)
   combo_array = won?(board)
-    if index
+    if combo_array
       return board[combo_array[0]] #in a winning combo the tokens match so [0] or [1] [2] will all give the same result
     end
     return nil
