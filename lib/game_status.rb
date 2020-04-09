@@ -55,16 +55,8 @@ def over?(board)
 end
 
 def winner(board)
-  index = won?(board)
-    if board[index[0]] == "X"
-      return "X"
-    else
-      return "O"
-    end
-    if board[index[0]] != "X" && board[index[0]] != "O"
-      return nil
-    end
-end
+  
+
 #all_X = winning_array.all? do |single_index| #we've created all_X variable because .detect will only work with the last condition that was entered which means it would only iterate over "O" - therefore by creating the variables all_X and all_O I'm making the conditions one unit under which i call .detect on line 30
   #board[single_index] == "X" #board[single_index] is referring to each index on the board only considering the winning_array/WIN_COMBINATIONS
 #end
