@@ -60,7 +60,8 @@ def winner(board)
       return "X"
     else
       return "O"
-    elsif winner(board) == false
+    else
+      if winner(board) == false
       return nil
       end
     end
