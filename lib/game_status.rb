@@ -50,7 +50,9 @@ end
 
 def over?(board)
   if won?(board) || draw?(board) || full?(board)
-    return true 
+    return true
+end
+
 
   #how to say if positions_taken(board,index)
 #every element in the board
