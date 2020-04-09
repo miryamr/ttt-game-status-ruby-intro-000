@@ -55,14 +55,11 @@ def over?(board)
 end
 
 def winner(board)
-  index = won?(board)
-    if board[index[0]] == "X"
-      return "X"
-    elsif board[index[0]] == "O"
-      return "O"
-    else
-      return nil
-    end 
+  combo_array = won?(board)
+    if index
+      return board[combo_array[0]] #in a winning combo the tokens match so [0] or [1] [2] will all give the same result
+    end
+    return nil
 end
 
 
