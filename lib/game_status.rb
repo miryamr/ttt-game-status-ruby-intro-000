@@ -49,12 +49,12 @@ end
 end
 
 def over?(board)
-  if won?(board) || draw?(board) || full?(board)
+  won?(board) || draw?(board) || full?(board)
     return true
   end
 end
 
-def winner?(board)
+#def winner?(board)
 
 
   #how to say if positions_taken(board,index)
