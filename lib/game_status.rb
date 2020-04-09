@@ -55,5 +55,6 @@ def over?(board)
 end
 
 def winner(board)
-  X_win = 
+  X_win =
   O_win =
+  
