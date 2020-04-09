@@ -63,6 +63,6 @@ def winner(board)
     end
 end
 
-if !winner(board)
+!winner(board)
   return nil
-end 
+end
