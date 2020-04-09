@@ -54,8 +54,8 @@ def over?(board)
   end
 end
 
-#def winner?(board)
-
-
-  #how to say if positions_taken(board,index)
-#every element in the board
+def winner?(board)
+  if won?(board) == "X"
+    return "X"
+  end
+end
