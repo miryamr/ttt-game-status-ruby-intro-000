@@ -65,3 +65,4 @@ end
 
 if !winner(board)
   return nil
+end 
