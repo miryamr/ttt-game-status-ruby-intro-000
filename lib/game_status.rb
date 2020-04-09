@@ -48,7 +48,8 @@ end
 #return true
 end
 
-
+def over?(board)
+  
 
   #how to say if positions_taken(board,index)
 #every element in the board
