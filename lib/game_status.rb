@@ -26,20 +26,6 @@ def won?(board)
 end
 
 
-
-#all_X = winning_array.all? do |single_index| #we've created all_X variable because .detect will only work with the last condition that was entered which means it would only iterate over "O" - therefore by creating the variables all_X and all_O I'm making the conditions one unit under which i call .detect on line 30
-  #  board[single_index] == "X" #board[single_index] is referring to each index on the board only considering the winning_array/WIN_COMBINATIONS
-#  end
-#  all_O = winning_array.all? do |single_index|
-#    board[single_index] == "O"
-#  end
-#all_X == true || all_O == true #this means if any of the arrays matches the conditions
-
-#end
-#this is, within the winning combinations, does every index on the board match with either X or O?
-  #  return false
-#  end
-
 def full?(board)
   board.all? do |each_index|
     each_index == "X" || each_index == "O"
